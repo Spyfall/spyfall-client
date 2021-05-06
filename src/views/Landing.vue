@@ -9,7 +9,7 @@
           class="bg-spyfall-yellow rounded-full px-3 py-1 my-4 outline-none placeholder-gray-300
           text-white"
         />
-        <router-link to="/sa"><sf-button text="PLAY"></sf-button></router-link>
+        <sf-button text="PLAY"></sf-button>
       </div>
       <div class="flex flex-col flex-1 p-4 justify-around">
         <sf-button text="Find Lobby" background="spyfall-blue"></sf-button>

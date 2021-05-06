@@ -1,16 +1,7 @@
 <template>
-  <div id="app">
-    <landing></landing>
+  <div>
+    <router-view />
   </div>
 </template>
 
-<script>
-import Landing from './views/Landing.vue';
-
-export default {
-  name: 'app',
-  components: { Landing },
-};
-</script>
-
-<style></style>
+<style lang="scss"></style>
