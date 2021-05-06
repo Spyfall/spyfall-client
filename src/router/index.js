@@ -1,11 +1,17 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Landing from '../views/Landing.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import Landing from "../views/Landing.vue";
+import Rooms from "../views/Rooms.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Landing',
+    path: "/",
+    name: "Landing",
     component: Landing,
+  },
+  {
+    path: "/rooms",
+    name: "Rooms",
+    component: Rooms,
   },
 ];
 
