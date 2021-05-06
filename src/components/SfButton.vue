@@ -1,10 +1,13 @@
 <template>
-  <button
-    class="text-white rounded-full py-2 px-6 text-2xl focus:outline-none hover:shadow-lg duration-300"
+  <router-link
+    :to="link"
+    class="text-white rounded-full  text-2xl  hover:shadow-lg duration-300 text-nowrap"
     :class="[handleBg]"
   >
-    {{ text }}
-  </button>
+    <button class="w-full h-full py-2 px-6 focus:outline-none">
+      {{ text }}
+    </button>
+  </router-link>
 </template>
 
 <script>
@@ -22,6 +25,10 @@ export default {
     background: {
       type: String,
       default: "spyfall-red",
+    },
+    link: {
+      type: String,
+      default: "/",
     },
   },
 };
