@@ -1,6 +1,6 @@
 <template>
   <button
-    class="text-white rounded-full py-2 px-6 text-lg focus:outline-none hover:shadow-lg duration-300"
+    class="text-white rounded-full py-2 px-6 text-2xl focus:outline-none hover:shadow-lg duration-300"
     :class="[handleBg]"
   >
     {{ text }}
