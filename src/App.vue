@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <landing></landing>
   </div>
 </template>
 
 <script>
+import Landing from './views/Landing.vue';
+
 export default {
   name: 'app',
-  components: {}
-}
+  components: { Landing },
+};
 </script>
 
-<style src="./assets/css/style.css"></style>
+<style></style>

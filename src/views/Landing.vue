@@ -6,9 +6,10 @@
         <input
           type="text"
           placeholder="Username"
-          class="bg-spyfall-yellow rounded-full px-3 py-1 my-4 outline-none placeholder-gray-300 text-white"
+          class="bg-spyfall-yellow rounded-full px-3 py-1 my-4 outline-none placeholder-gray-300
+          text-white"
         />
-        <sf-button text="PLAY"></sf-button>
+        <router-link to="/sa"><sf-button text="PLAY"></sf-button></router-link>
       </div>
       <div class="flex flex-col flex-1 p-4 justify-around">
         <sf-button text="Find Lobby" background="spyfall-blue"></sf-button>
@@ -19,7 +20,8 @@
 </template>
 
 <script>
-import SfButton from "../components/SfButton.vue";
+import SfButton from '../components/SfButton.vue';
+
 export default {
   components: { SfButton },
 };
