@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import SfButton from "../components/SfButton.vue";
-import SfContainer from "../components/SfContainer.vue";
+import SfButton from "../components/base/SfButton.vue";
+import SfContainer from "../components/base/SfContainer.vue";
 
 export default {
   methods: {
