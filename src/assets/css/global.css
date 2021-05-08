@@ -5,3 +5,13 @@ body {
 .text-nowrap {
   white-space: nowrap;
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: #e43c3b;
+  background: #21235c;
+}
+
+::selection {
+  color: #e43c3b;
+  background: #21235c;
+}
